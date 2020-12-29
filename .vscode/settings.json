@@ -1,3 +1,10 @@
 {
-    "python.pythonPath": "/usr/local/bin/python"
+    //"python.pythonPath": "/opt/venv/bin/python",
+    "python.pythonPath": "/Envs/djangoEnv1/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "git.scanRepositories": [
+        "/usr/bin/git",
+        "C:\\Program Files\\Git\\bin"
+    ]
 }

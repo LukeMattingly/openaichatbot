@@ -5,6 +5,8 @@ import sys
 
 
 def main():
+    for p in sys.path:
+        print(p)
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'web_project.settings')
     try:
